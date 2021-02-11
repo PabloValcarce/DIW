@@ -55,19 +55,25 @@ nav{
     height: 26px;
     background-image: url(fondomenu.jpg);
     margin-top:10px;
-    padding-top: 15px;
+    
     
 }
 ul{
-    list-style-type: none
+    list-style-type: none;
+    padding-top: 15px;
+
     }
 li{
-    display:inline;
-    margin:10px;    
+    display:inline;    
     color:#3a86b8;
-    border-left-width: 1px;
+    border-width: 1px;
     border-style:solid;
-    border-color:#3a86b8  ;
+    border-color:#3a86b8;
+    padding:5px;
+    border-top: hidden;
+    border-bottom: hidden;
+    border-right: hidden;
+
 
     
 }
