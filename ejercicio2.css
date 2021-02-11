@@ -72,9 +72,15 @@ li{
     padding:5px;
     border-top: hidden;
     border-bottom: hidden;
-    border-right: hidden;
+    border-left: hidden;
 }
-a{
+li+li{
+    border-left: none;
+}
+nav ul li a{
     text-decoration: none;
     color:#3a86b8
+}
+nav ul li a:hover{
+    background-color: #d2e9f0;
 }
